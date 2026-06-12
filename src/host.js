@@ -42,12 +42,6 @@ const benches = [
     argv: ["--import=solarwinds-apm"],
     env: {},
   },
-  {
-    instrumented: "legacy",
-    port: 8282,
-    argv: ["--import=solarwinds-apm"],
-    env: { SW_APM_LEGACY: String(true) },
-  },
 ]
 
 const { SW_BENCH_SERVICE_KEY, SW_BENCH_COLLECTOR } = process.env
