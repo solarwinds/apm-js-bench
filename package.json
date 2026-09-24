@@ -7,7 +7,7 @@
   },
   "dependencies": {
     "@opentelemetry/api": "^1.9.1",
-    "solarwinds-apm": "^16.2.1"
+    "solarwinds-apm": "^16.3.0"
   },
   "devDependencies": {
     "prettier": "^3.8.4"
